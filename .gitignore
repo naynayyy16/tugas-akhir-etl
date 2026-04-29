@@ -1,0 +1,32 @@
+# --- Python Virtual Environment ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# --- Database & Config ---
+*.jar
+.env
+# Abaikan password atau config lokal jika ada
+script/db_config.json 
+
+# --- Folder Data Spasial (PENTING) ---
+# Kita abaikan semua file di folder 01. Peta
+"01. Peta"/*.shp
+"01. Peta"/*.shx
+"01. Peta"/*.dbf
+"01. Peta"/*.prj
+"01. Peta"/*.cpg
+"01. Peta"/*.sbn
+"01. Peta"/*.sbx
+"01. Peta"/*.json
+
+# --- File SQL Besar ---
+dim_wilayah_sumatera.sql
+
+# --- Spark & Hadoop Temporary Files ---
+spark-warehouse/
+metastore_db/
+derby.log
+C:/temp/
+bin/winutils.exe
