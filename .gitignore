@@ -30,3 +30,5 @@ metastore_db/
 derby.log
 C:/temp/
 bin/winutils.exe
+# --- Tableau Temp Files ---
+*.twbr
